@@ -16,7 +16,7 @@ spec:
         default: ./
       - name: BUILDER_IMAGE
         description: The image on which builds will run
-        default: pipeline-example-maven:latest
+        default: springboot-freemarker:latest
   steps:
     - name: maven
       image: maven:3-jdk-7
